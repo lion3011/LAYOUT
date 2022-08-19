@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 5rem;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content:space-between;
+    background-color: aqua;
+    flex-grow: 1;
+}
+.asideleft0{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    height: 100%;
+    width: 4rem;
+    border: 1px solid black;
+    margin: 3px;
+}
+.asideleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 3px;
+    padding: 3px;
+}
+#barraLateralIzquierda{
+    font-size: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+.asiderigth{
+    background-color: blueviolet;
+    height: 100%;
+    width: 15rem;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    width: 42rem;
+    overflow-y: scroll;
+
+}
+.menu{
+    display:flex;
+    flex-grow: 0.03;
+    background-color:lightsteelblue;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.buscador{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 3rem;
+}
+.contenido0{
+    border: 3px solid black;
+    padding: 2rem;
+    display: flex;
+
+}
+.contenido{
+    gap: 1rem;
+    border: 3px solid yellow;
+    display: flex;
+    flex-basis: content;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 3px;
+}
+article{
+    height: 20rem;
+    width: 15rem;
+    border: 3px solid black;
+}
+
+footer{
+    background-color: blue;
+    display: flex;
+    justify-content: center; /*alinea el texto o imagen horizontalmente*/
+    align-items: center; /*alinea el texto o imagen verticalmente*/
+    color: aliceblue;
+}
